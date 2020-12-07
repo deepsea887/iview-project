@@ -9,7 +9,7 @@ import 'iview/dist/styles/iview.css';
 Vue.use(VueRouter);
 Vue.use(iView);
 
-// 路由配置基础部分
+// 路由配置基础部分eeee
 const RouterConfig = {
     mode: 'history',
     routes: Routers
