@@ -9,7 +9,7 @@ import 'iview/dist/styles/iview.css';
 Vue.use(VueRouter);
 Vue.use(iView);
 
-// 路由配置 我也习惯了
+// 路由配置 我也习惯了折叠可以修改了。
 const RouterConfig = {
     mode: 'history',
     routes: Routers
