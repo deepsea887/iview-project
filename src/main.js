@@ -9,7 +9,7 @@ import 'iview/dist/styles/iview.css';
 Vue.use(VueRouter);
 Vue.use(iView);
 
-// 路由配置 我也习惯了折叠可以修改了。真的可以了。要用菜单？
+// 路由配置 我也习惯了折叠可以修改了。真的可以了。要用菜单？，提交率是提交，推送才同步
 const RouterConfig = {
     mode: 'history',
     routes: Routers
