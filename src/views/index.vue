@@ -29,7 +29,7 @@
         <Row type="flex" justify="center" align="middle">
             <Col span="24">
                 <h1>
-                    <img src="../images/logo.png">
+                    <img src="../images/logo.svg">
                 </h1>
                 <h2>
                     <p>Welcome to your iView app!</p>

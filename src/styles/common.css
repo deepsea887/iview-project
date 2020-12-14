@@ -1,0 +1,11 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: 576px) {
+    .ivu-col-xs-class-show{display: block;}
+    .ivu-col-xs-class-hide{display: none;}
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) {}

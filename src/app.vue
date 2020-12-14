@@ -3,7 +3,6 @@
 </style>
 <template>
     <div>
-    <p>首页视图</p>
         <router-view></router-view>
     </div>
 </template>

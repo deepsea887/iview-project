@@ -5,11 +5,14 @@ import Routers from './router';
 import Util from './libs/util';
 import App from './app.vue';
 import 'iview/dist/styles/iview.css';
+import './styles/common.css';
+import axios from './libs/request'
+Vue.prototype.$axios = axios //全局注册，使用方法为:this.$axio
 
 Vue.use(VueRouter);
 Vue.use(iView);
 
-// 路由配置 我也习惯了折叠可以修改了。真的可以了。要用菜单？，提交率是提交，推送才同步
+// 路由配置
 const RouterConfig = {
     mode: 'history',
     routes: Routers
