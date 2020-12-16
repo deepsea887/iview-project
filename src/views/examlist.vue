@@ -13,7 +13,8 @@
 </style>
 <template>
     <div class="layout">
-        后台首页
+        所有试卷e
+        <a href="/index">回到首页</a>
     </div>
 </template>
 <script>
