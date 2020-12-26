@@ -113,8 +113,9 @@
                             }
                         })
                         .then(response => {
-                            this.$Message.success('成功登录，正在进入！');   // 成功的返回
-                            this.$router.push('/index')
+                            //this.$Message.success('成功登录，正在进入！');   // 成功的返回
+                            //this.$router.push('/index')
+                            this.$Message.success(response.message);
                         })
                         .catch(error => this.$Message.success('网络错误，请稍后再试！')); // 失败的返回
                     } else {

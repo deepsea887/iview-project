@@ -18,7 +18,11 @@ const routers = [
             path: '',
             name: 'index',
             component: (resolve) => require(['./views/index.vue'], resolve),
-            meta: {title: '首页', icon: 'home'}
+            meta: {
+                title: '首页'
+                ,icon: 'home'
+                ,auth: true
+            }
         }]
     },
     {
@@ -33,7 +37,11 @@ const routers = [
                 path: 'list',
                 name: 'list',
                 component: (resolve) => require(['./views/examlist.vue'], resolve),
-                meta: {title: '所有试卷', icon: 'home'}
+                meta: {
+                    title: '所有试卷'
+                    ,icon: 'home'
+                    ,auth: true
+                }
             }
         ]
     }
