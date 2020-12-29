@@ -8,17 +8,6 @@
 </template>
 <script>
     export default {
-        data () {
-            return {}
-        },
-        mounted () {
-
-        },
-        beforeDestroy () {
-
-        },
-        methods: {
-
-        }
+        name: 'App'
     }
 </script>

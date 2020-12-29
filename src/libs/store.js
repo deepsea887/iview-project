@@ -14,7 +14,7 @@ const store = new Vuex.Store({
     goodsTop: 0,
     excludeName: [],
     openFlag:false,//开源提示开关
-	pcUrl: process.env.VUE_APP_PC_NAME
+	  pcUrl: process.env.VUE_APP_PC_NAME
   },
   getters: {
     getUesr: function (state) { //获取登录信息
